@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InClass03-PizzaStore</string>
+    <string name="title_activity_checkout">CheckoutActivity</string>
+</resources>
