@@ -9,6 +9,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.github.baocin.inclass03_pizzastore.MainActivity">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/toppingTable1"></TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/toppingTable2" />
+    </TableLayout>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,9 +61,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignBottom="@+id/deliveryCheckbox"
         android:longClickable="false"
-        android:max="10" />
+        android:max="10"
+        android:layout_above="@+id/linearLayout" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -47,7 +71,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -58,15 +83,16 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button"
-                android:layout_weight="1" />
+                android:text="@string/addToppingButton"
+                android:id="@+id/addToppingButton"
+                android:layout_weight="1"
+                android:contextClickable="false" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button2"
+                android:text="@string/clearPizzaButton"
+                android:id="@+id/clearPizzaButton"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -79,8 +105,8 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button3" />
+                android:text="@string/checkoutButton"
+                android:id="@+id/checkoutButton" />
         </LinearLayout>
     </LinearLayout>
 

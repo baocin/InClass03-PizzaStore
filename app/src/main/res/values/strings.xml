@@ -2,4 +2,8 @@
     <string name="app_name">InClass03-PizzaStore</string>
     <string name="title_activity_checkout">CheckoutActivity</string>
     <string name="deliveryCheckboxText">Delivery</string>
+    <string name="addToppingButton">Add Topping</string>
+    <string name="clearPizzaButton">Clear Pizza</string>
+    <string name="checkoutButton">Checkout</string>
+
 </resources>
