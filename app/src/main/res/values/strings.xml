@@ -6,4 +6,16 @@
     <string name="clearPizzaButton">Clear Pizza</string>
     <string name="checkoutButton">Checkout</string>
 
+        <string name="text_yourorder" />
+        <string name="your_order_new">Your Order</string>
+        <string name="base_price_string">Base Price:</string>
+        <string name="Toppings_string">Toppings:</string>
+        <string name="delivery_cost_string">Delivery Cost:</string>
+        <string name="textview_total">Total:</string>
+        <string name="buttonFinish">Finish</string>
+        <string name="textview_basepriceValue">price</string>
+        <string name="textview_dollar">$</string>
+        <string name="textview_toppingsPrice">topPrice</string>
+        <string name="textview_deliveryPrice">dprice</string>
+        <string name="textview_Price">tPrice</string>
 </resources>
