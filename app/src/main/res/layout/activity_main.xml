@@ -9,29 +9,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.github.baocin.inclass03_pizzastore.MainActivity">
 
-    <TableLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableRow
+        <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal"
-            android:id="@+id/toppingTable1"></TableRow>
-    </TableLayout>
+            android:layout_height="match_parent">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/toppingTable1"></TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal"
-            android:id="@+id/toppingTable2" />
-    </TableLayout>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:id="@+id/toppingTable2" />
+        </TableLayout>
+
+    </LinearLayout>
 
     <ImageView
         android:layout_width="wrap_content"
